@@ -1,15 +1,17 @@
-package com.company;
+package com.company.furniture;
 
-public class Chair  extends  Furniture {
+import com.company.furniture.Furniture;
+
+public class Chair  extends Furniture {
 
     protected  int heightBack;
 
-    Chair(){
+    public Chair(){
         heightBack = 0;
         price = 20;
     }
 
-    Chair(String strength,String style, int heightBack, long price){
+    public Chair(String strength,String style, int heightBack, long price){
         super(strength, style, price);
         this.heightBack = heightBack;
         this.price = price;

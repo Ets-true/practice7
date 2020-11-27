@@ -1,4 +1,4 @@
-package com.company;
+package com.company.furniture;
 
 public  abstract class Furniture {
 
@@ -6,12 +6,12 @@ public  abstract class Furniture {
     protected String style;
     protected long price;
 
-    Furniture(){
+    public Furniture(){
         strength = "low";
         style = "undefined";
         price = 1;
     }
-    Furniture(String strength, String style, long price){
+    public Furniture(String strength, String style, long price){
         this.strength = strength;
         this.style = style;
         this.price = price;

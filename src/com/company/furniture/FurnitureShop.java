@@ -1,4 +1,6 @@
-package com.company;
+package com.company.furniture;
+
+import com.company.furniture.Furniture;
 
 import java.util.ArrayList;
 import java.util.List;

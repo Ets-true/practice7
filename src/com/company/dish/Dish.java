@@ -1,4 +1,4 @@
-package com.company;
+package com.company.dish;
 
 public abstract class Dish {
 
@@ -7,7 +7,7 @@ public abstract class Dish {
 
 
         public Dish(){
-            material = "undefined";
+            material = "unknown";
             purity = false;
         }
 
@@ -18,10 +18,7 @@ public abstract class Dish {
 
     @Override
     public String toString() {
-        return "Dish{" +
-                "material='" + material + '\'' +
-                ", purity=" + purity +
-                '}';
+        return "Dish{" + "material='" + material + '\'' + ", purity=" + purity + '}';
     }
     public void clean(){
             purity = true;

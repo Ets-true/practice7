@@ -1,14 +1,16 @@
-package com.company;
+package com.company.furniture;
+
+import com.company.furniture.Furniture;
 
 public class Table extends Furniture {
 
     protected  int height;
 
-    Table(){
+    public Table(){
         height = 0;
         price = 15;
     }
-    Table( String strength, String style, int height, long price){
+    public Table( String strength, String style, int height, long price){
         super(strength,style, price);
         this.height = height;
     }
